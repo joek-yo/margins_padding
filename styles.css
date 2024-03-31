@@ -1,0 +1,73 @@
+/* Header Styling */
+header {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 20px; /* Padding of all sides */
+}
+
+h1 {
+    text-align: center; /* Center the header text */
+}
+
+/* Responsive Adjustment */
+@media (max-width: 768px) {
+    header,
+    section {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    h1,
+    h2 {
+        font-size: 1rem; /* Adjust font size for better readability */
+    }
+}
+
+/* Introduction Section */
+#introduction {
+    background-color: #f0f8ff; /* Very light blue background */
+    margin-top: 20px; /* Margin from top of header */
+    padding: 20px;
+    margin-bottom: 20px; /* Add margin at the bottom for spacing */
+}
+
+h2 {
+    margin-bottom: 10px; /* Margin below headings */
+}
+
+/* Skills Section */
+#skills {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Reset Padding */
+}
+
+li {
+    border: 1px solid #ccc; /* Border of each skill */ 
+    padding: 10px;
+    margin-bottom: 5px; /* Margin between skills */
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e5e5e5; /* Light grey background */
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Social Media Links */
+.social-media {
+    margin-top: 10px; /* Add margin at the top for spacing */
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-media a:hover {
+    color: #007bff; /* Change color on hover */
+}
